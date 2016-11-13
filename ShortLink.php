@@ -22,14 +22,14 @@ $from = $update->message->from->id;
     $short = file_get_contents('http://yeo.ir/api.php?url='.$text);
     roonx('sendMessage',[
       'chat_id'=>$chat_id,
-      'text'=>"🔗 Your Short LInk : ".$short."\n@MuteTeam",
+      'text'=>"🔗 Your Short LInk : ".$short."\n@TgHelper",
       'parse_mode'=>'HTML'
     ]);
   }
   if(preg_match('/^\/([sS]tart)/',$text)){
 	  mute('sendMessage',[
       'chat_id'=>$chat_id,
-      'text'=>"Hi 😉👋\nIm Bot Short LInker 😃\nPlease Send Your Link 🙌\n\n@MuteTeam",
+      'text'=>"Hi 😉👋\nIm Bot Short LInker 😃\nPlease Send Your Link 🙌\n\n@TgHelper",
       'parse_mode'=>'HTML'
     ]);
   }
