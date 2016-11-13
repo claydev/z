@@ -29,7 +29,7 @@ $from = $update->message->from->id;
   if(preg_match('/^\/([sS]tart)/',$text)){
 	  mute('sendMessage',[
       'chat_id'=>$chat_id,
-      'text'=>"Hi 😉👋\nIm Bot Short LInker 😃\nPlease Send Your Link 🙌\n\n@TgHelper",
+      'text'=>"Hi 😉👋\nIm Bot Short LInker 😃\nPlease Send Your Link 😎\n\n@Mega_Force_Bot",
       'parse_mode'=>'HTML'
     ]);
   }
